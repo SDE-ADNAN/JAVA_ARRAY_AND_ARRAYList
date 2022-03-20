@@ -1,8 +1,8 @@
 package com.adnan;
 
-public class Main {
+public class ARRAYS {
 
     public static void main(String[] args) {
-	// write your code here
+	
     }
 }
