@@ -30,16 +30,38 @@ public class MultiDimentionalARRAYS {
 //                {6,7,8,9},// 2nd index -> arr[2][] = {6,7,8,9}
 //        };
 
-        int[][] arr = new int[3][2];
+        int[][] arr = new int[3][3];
         // inputs in 2d arrays:
-        for (int rows = 0; rows < arr.length; rows++) { // arr.length in case of multidimensional arrays gives no of rows
-//            arr2 [rows] = in.next();
-            for (int col = 0; col < arr[rows].length; col++) {
-                arr[rows][col] = in.nextInt();
-            }
-        }
+//        for (int rows = 0; rows < arr.length; rows++) { // arr.length in case of multidimensional arrays gives no of rows
+////            arr2 [rows] = in.next();
+//            for (int col = 0; col < arr[rows].length; col++) {
+//                arr[rows][col] = in.nextInt();
+//            }
+//        }
 
-        System.out.println(Arrays.toString(arr[0]));
+
+        //out put of 2d array
+//        for (int rows = 0; rows < arr.length; rows++) { // arr.length in case of multidimensional arrays gives no of rows
+////            arr2 [rows] = in.next();
+//            for (int col = 0; col < arr[rows].length; col++) {
+//                System.out.print(arr[rows][col]+"  ");
+//            }
+//            System.out.println();
+//        }
+
+//        System.out.println(Arrays.toString(arr[0]));
+
+        // out put using toString
+//        for (int rows = 0; rows < arr.length; rows++) { // arr.length in case of multidimensional arrays gives no of rows
+//            System.out.println(Arrays.toString(arr[rows]));
+//        }
+
+
+
+        // enhanced forloop example
+        for (int[] ints : arr) {
+            System.out.println(Arrays.toString(ints));
+        }
 
 
 
