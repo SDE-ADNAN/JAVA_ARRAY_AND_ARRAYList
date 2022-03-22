@@ -8,6 +8,14 @@ public class ArrayListExample {
         Scanner in = new Scanner(System.in);
         //Syntax
         ArrayList<Integer> list = new ArrayList<>(5);
+
+        // About Array lists
+//        1.size is fixed internally
+//        2.Say  first arraylist is filled by some amount
+//        => It willcreate a new arraylist of say => double the size of the previous arraylist
+//        => old elements are copied in new arraylist
+//        => old arraylist is deleted
+
 //        list.add(2311);
 //        list.add(2322);
 //        list.add(23);
